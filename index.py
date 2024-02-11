@@ -96,11 +96,35 @@
 #         print(i)
 
 # 94 cü test
-def hex_to_decimal(hexadecimal):
-    return int(hexadecimal, base=16)
+# def hex_to_decimal(hexadecimal):
+#     return int(hexadecimal, base=16)
 
-hexadecimal_input = input("Giriş (16-lıq say sistemində): ")
-decimal_output = hex_to_decimal(hexadecimal_input)
-print("Çıxış (10-luq say sistemində):", decimal_output)
+# n = input("Giriş (16-lıq say sistemində): ")
+# decimal_output = hex_to_decimal(n)
+# print("Çıxış (10-luq say sistemində):", decimal_output)
 
+# Sətirlər və onlar üzərində
+# 9-cu sual
+# a = [1993,27,9,2,0,2,0,5,6,11]
+# b = a
+# a.append(44)
+# b.remove(6)
+# del a[0]
+# a.insert(6,10)
+# del b[7]
+# print(a,b)
+
+# 10-cu sual
+# def f(n):
+#     s = ''
+#     while n>0:
+#         k=n%8
+#         s= str(k)+s
+#         n=n//8
+#     return s
+# n=int(input())
+# s = f(n)
+# print(n,s)
+
+# 11-ci sual
 
